@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!-- title tag -->
+		<title>Counter App</title>
+	<!-- end -->
+
+	<!-- meta tags -->
+		<meta charset="utf-8">
+		<meta name="keywords" content="HTML, CSS, JavaScript">
+		<meta name="discription" content="Learning the HTML, CSS, and the JavaScript">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- end -->
+
+	<link rel="stylesheet" href="style.css">
+
+
+    </head>
+    <body>
+        <div class="main">
+            <h2>COUNTER</h2>
+            <h1 id="countNum">0</h1>
+            <div class="para">
+                <label for="">Previous Entries:</label>
+                <p id="countStr"></p>
+            </div>
+            <div class="btns">
+                <button id="add-btn" onclick="addNewEntries()">Add</button>
+                <button id="save-btn" onclick="saveEntries()">Save</button>
+            </div>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
